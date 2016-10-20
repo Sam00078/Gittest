@@ -19,4 +19,9 @@ public class MainActivity extends AppCompatActivity {
     public ActionMode startActionMode(ActionMode.Callback callback) {
         return super.startActionMode(callback);
     }
+
+    @Override
+    public void setSupportProgressBarVisibility(boolean visible) {
+        super.setSupportProgressBarVisibility(visible);
+    }
 }
