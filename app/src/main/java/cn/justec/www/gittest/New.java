@@ -5,4 +5,9 @@ package cn.justec.www.gittest;
  */
 
 public class New {
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
 }
